@@ -1,4 +1,4 @@
-function getTicketPrice(age) {
+export function getTicketPrice(age) {
   // your code here
   if (age <= 0 || age > 125) return -1
   let result
@@ -10,7 +10,7 @@ function getTicketPrice(age) {
   return result
 }
 
-console.log(
-  '🚀 ~ file: 05-12-main.js ~ line 2 ~ getTicketPrice ~ getTicketPrice',
-  getTicketPrice(7)
-)
+// console.log(
+//   '🚀 ~ file: 05-12-main.js ~ line 2 ~ getTicketPrice ~ getTicketPrice',
+//   getTicketPrice(7)
+// )

@@ -1,4 +1,4 @@
-function removeVowel(str) {
+export function removeVowel(str) {
   // your code here
   if (str === '') return ''
 
@@ -7,7 +7,7 @@ function removeVowel(str) {
   return lastStr.trim()
 }
 
-console.log(
-  '🚀 ~ file: coding-exercise-7.js ~ line 2 ~ removeVowel ~ removeVowel',
-  removeVowel('say hello') //sy hll
-)
+// console.log(
+//   '🚀 ~ file: coding-exercise-7.js ~ line 2 ~ removeVowel ~ removeVowel',
+//   removeVowel('say hello') //sy hll
+// )

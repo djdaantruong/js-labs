@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1651761277941" clover="3.2.0">
+  <project timestamp="1651761277941" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2" elements="18" coveredelements="18" complexity="0" loc="6" ncloc="6" packages="2" files="2" classes="2"/>
+    <package name="js-labs">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="main.js" path="/Users/apple/Documents/practice-project/JavaScript-easyfrontend/js-labs/main.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="js-labs.easyfrontend.lesson">
+      <metrics statements="5" coveredstatements="5" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <file name="05-09-main.js" path="/Users/apple/Documents/practice-project/JavaScript-easyfrontend/js-labs/easyfrontend/lesson/05-09-main.js">
+        <metrics statements="5" coveredstatements="5" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="41" count="12" type="cond" truecount="4" falsecount="0"/>
+        <line num="43" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

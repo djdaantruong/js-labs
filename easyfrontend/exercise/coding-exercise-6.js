@@ -1,4 +1,4 @@
-function isSymmetricNumber(n) {
+export function isSymmetricNumber(n) {
   if (n < 0 || n >= 1000) return -1
 
   const ones = n % 10
@@ -20,7 +20,7 @@ function isSymmetricNumber(n) {
   return result
 }
 
-console.log(
-  '🚀 ~ file: coding-exercise-6.js ~ line 2 ~ isSymmetricNumber ~ isSymmetricNumber',
-  isSymmetricNumber(444)
-)
+// console.log(
+//   '🚀 ~ file: coding-exercise-6.js ~ line 2 ~ isSymmetricNumber ~ isSymmetricNumber',
+//   isSymmetricNumber(444)
+// )

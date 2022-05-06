@@ -2,7 +2,7 @@
 const SECONDS_PER_HOUR = 3600
 const SECONDS_PER_MIN = 60
 
-function formatTime(seconds) {
+export function formatTime(seconds) {
   // your code here
   if (seconds < 0 || seconds > 86400) return -1
 
@@ -16,7 +16,7 @@ function formatTime(seconds) {
     '0' + second
   ).slice(-2)}`
 }
-console.log(
-  '🚀 ~ file: coding-exercise-9.js ~ line 6 ~ formatTime ~ formatTime',
-  formatTime(4256)
-)
+// console.log(
+//   '🚀 ~ file: coding-exercise-9.js ~ line 6 ~ formatTime ~ formatTime',
+//   formatTime(4256)
+// )

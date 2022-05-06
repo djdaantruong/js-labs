@@ -1,4 +1,4 @@
-function getMaxDigits(n) {
+export function getMaxDigits(n) {
   if (n < 0 || n >= 1000) return -1
 
   const ones = n % 10
@@ -12,7 +12,7 @@ function getMaxDigits(n) {
   return maxDigit
 }
 
-console.log(
-  '🚀 ~ file: coding-exercise-4.js ~ line 2 ~ getMaxDigits ~ getMaxDigits:',
-  getMaxDigits(-0)
-)
+// console.log(
+//   '🚀 ~ file: coding-exercise-4.js ~ line 2 ~ getMaxDigits ~ getMaxDigits:',
+//   getMaxDigits(-0)
+// )

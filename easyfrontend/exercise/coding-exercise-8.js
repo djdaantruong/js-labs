@@ -1,5 +1,5 @@
 // using if...else
-function formatSecondsV1(seconds) {
+export function formatSecondsV1(seconds) {
   // your code here
   if (seconds < 0 || seconds > 60) return -1
 
@@ -8,7 +8,7 @@ function formatSecondsV1(seconds) {
 }
 
 // using slice()
-function formatSecondsV2(seconds) {
+export function formatSecondsV2(seconds) {
   // your code here
   if (seconds < 0 || seconds > 60) return -1
 

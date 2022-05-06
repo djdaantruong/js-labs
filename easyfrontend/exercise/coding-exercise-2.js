@@ -11,7 +11,4 @@ function sayHello(languageCode) {
   return languageMap[languageCode] || 'Hello'
 }
 
-console.log(
-  '🚀 ~ file: coding-exercise2.js ~ line 2 ~ sayHello ~ sayHello(languageCode)',
-  sayHello('vi')
-)
+export { sayHello, languageMap } from './coding-exercise-2'

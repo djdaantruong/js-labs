@@ -4,6 +4,9 @@
 //   { id: 3, name: 'Easy Frontend', gender: 'male' },
 // ]
 
+// FIXME:
+// TODO:
+
 function isAlice(student) {
   if (!student) return false
   return student.gender === 'female' && student.name.toLowerCase() === 'alice'

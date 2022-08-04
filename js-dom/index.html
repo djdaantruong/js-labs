@@ -35,21 +35,32 @@
         <ul id="todoList" class="todo-list"></ul>
       </div>
     </section>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="searchTermSpan">@</span>
+      <input
+        id="searchTerm"
+        type="text"
+        class="form-control"
+        aria-label="Username"
+        aria-describedby="searchTermSpan"
+      />
+    </div>
     <template id="todoTemplate">
       <li>
         <div class="todo alert alert-secondary" role="alert">
           <div class="d-flex justify-content-between align-items-center">
             <p class="todo__title mb-0">TODO TITLE</p>
             <div class="todo__actions">
-              <button type="button" class="btn btn-success mark-as-done">Finish</button>
-              <button type="button" class="btn btn-danger remove">Remove</button>
+              <button type="button" class="btn btn-sm btn-success mark-as-done">Finish</button>
+              <button type="button" class="btn btn-sm btn-primary edit">Edit</button>
+              <button type="button" class="btn btn-sm btn-danger remove">Remove</button>
             </div>
           </div>
         </div>
       </li>
     </template>
   </body>
-  <script src="./js/19-18-create-todo.js"></script>
+  <script src="./js/19-19-update-todo.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
